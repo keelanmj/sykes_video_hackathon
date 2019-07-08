@@ -16,6 +16,13 @@ $('.wrapper').css('max-height', tr10ffsetTop);
 
 </script>
 
+<script>
+	var vid = document.getElementById("myVideo");
+	
+	function playpoint(e) { 
+	  vid.currentTime=5;
+	} 
+	</script>
 
 <style>
 table {
@@ -60,14 +67,17 @@ tr:nth-child(even) {
             // send the request
             xmlhttp.send(); // when the request completes it will execute the code in onreadystatechange section
         }
-
+var vid = document.getElementById("myVideo");
+function playpoint(time) { 
+	  vid.currentTime=(time);
+	} 
         //this function appends the json data to the table 'gable'
         function append_json(data){
             var table = document.getElementById('gable');
             data.forEach(function(object) {
                 var tr = document.createElement('tr');
                 tr.innerHTML = '<td>' + object.AttrId + '</td>' +
-                '<td>' + object.CallPoint + '</td>' +
+                '<td onclick=playpoint(' + object.CallPoint/1000 + ') >' + object.CallPoint/1000 + '</td>' +
                 '<td>' + object.AttrValue + '</td>' ;
                 table.appendChild(tr);
             });
@@ -110,9 +120,9 @@ tr:nth-child(even) {
                 <col class="twentyfive" />
             </colgroup>
             <tr>
-                <th onclick="sortTable(0)"><span class="glyphicon glyphicon-sort"></span>COUNTRY</th>
-                <th onclick="sortTable(1)"><span class="glyphicon glyphicon-sort"></span>LOCATION</th>
-                <th onclick="sortTable(2)"><span class="glyphicon glyphicon-sort"></span>BALANCE</th>
+                <th onclick="sortTable(0)"><span class="glyphicon glyphicon-sort"></span>Transaction ID</th>
+                <th onclick="sortTable(1)"><span class="glyphicon glyphicon-sort"></span>Time</th>
+                <th onclick="sortTable(2)"><span class="glyphicon glyphicon-sort"></span>Source Details</th>
             </tr>
         </table>
     </div>
