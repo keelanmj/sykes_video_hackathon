@@ -69,7 +69,18 @@ tr:nth-child(even) {
         }
 var vid = document.getElementById("myVideo");
 function playpoint(time) { 
-	  vid.currentTime=(time);
+	vid.currentTime=(time);
+	  
+	} 
+	
+	function geturl(time) { 
+	
+	var xmlHttp = new XMLHttpRequest();
+    xmlHttp.open( "GET", "http://usmazdevapp030.dev.sykes.com:5200/grab/demo1/10", true ); 
+    xmlHttp.send( null );
+    
+    return xmlHttp.responseText;
+
 	} 
         //this function appends the json data to the table 'gable'
         function append_json(data){
@@ -78,7 +89,9 @@ function playpoint(time) {
                 var tr = document.createElement('tr');
                 tr.innerHTML = '<td>' + object.AttrId + '</td>' +
                 '<td onclick=playpoint(' + object.CallPoint/1000 + ') >' + object.CallPoint/1000 + '</td>' +
-                '<td>' + object.AttrValue + '</td>' ;
+                '<td>' + object.AttrValue + '</td>' +
+                '<td>' + geturl(object.CallPoint/1000) + '</td>' 
+                ;
                 table.appendChild(tr);
             });
         }
@@ -101,8 +114,10 @@ function playpoint(time) {
 	} 
 	function setCurTime() { 
 	  vid.currentTime=5;
+	  
 	} 
 	</script>
+	
 	
 	<button onclick="getCurTime()" type="button">Get current time position</button>
 	<button onclick="setCurTime()" type="button">Set time position to 5 seconds</button><br> 
@@ -123,7 +138,8 @@ function playpoint(time) {
                 <th onclick="sortTable(0)"><span class="glyphicon glyphicon-sort"></span>Transaction ID</th>
                 <th onclick="sortTable(1)"><span class="glyphicon glyphicon-sort"></span>Time</th>
                 <th onclick="sortTable(2)"><span class="glyphicon glyphicon-sort"></span>Source Details</th>
+                <th onclick="sortTable(2)"><span class="glyphicon glyphicon-sort"></span>Image URL</th>
             </tr>
         </table>
     </div>
-   
+ 
