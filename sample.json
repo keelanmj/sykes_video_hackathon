@@ -1,0 +1,771 @@
+[
+            {
+                "AttrId": "ca18b8d3-db11-44e0-9664-fd9ce2938005",
+                "AttrName": "Transcript",
+                "AttrValue": "agent - [Hello, and thank you for calling our products. This is Jason, how may help you today.]",
+                "CallPoint": 1000,
+                "CallPointEnd": 4000,
+                "Notes": "[NOTES]",
+                "SourceName": "VOCI_ingest"
+            },
+            {
+                "AttrId": "55ae20ad-3004-4a38-84be-086e08ba19e0",
+                "AttrName": "IAWS_Label",
+                "AttrValue": "Opening",
+                "LabelTypeId": "75b46454-c167-4b0c-8020-667cc1e317f6",
+                "LabelCategory": "Segment",
+                "LabelCategoryId": "27a97375-a676-43aa-bad5-b80efe04cfa1",
+                "CallPoint": 1000,
+                "CallPointEnd": 4000,
+                "Notes": "[NOTES]",
+                "SourceName": "IAWS"
+            },
+            {
+                "AttrId": "aad13d12-5df8-4aed-9a8e-824352442abf",
+                "AttrName": "IAWS_Label",
+                "AttrValue": "Greeting",
+                "LabelTypeId": "e431b054-c71d-415f-a58f-8a152ed1c692",
+                "LabelCategory": "Process",
+                "LabelCategoryId": "68fb44b5-00b8-477d-a7e8-fc332ddd24d2",
+                "CallPoint": 1000,
+                "CallPointEnd": 4000,
+                "Notes": "[NOTES]",
+                "SourceName": "IAWS"
+            },
+            {
+                "AttrId": "7db69022-ed93-4172-a4a8-55b23482c2d6",
+                "AttrName": "IAWS_Label",
+                "AttrValue": "Agent Greeting",
+                "LabelTypeId": "e431b054-c71d-415f-a58f-8a152ed1c692",
+                "LabelCategory": "Agent Sub Process",
+                "LabelCategoryId": "0c329955-f673-40f8-8662-0e213e2aca18",
+                "CallPoint": 1000,
+                "CallPointEnd": 4000,
+                "Notes": "[NOTES]",
+                "SourceName": "IAWS"
+            },
+            {
+                "AttrId": "b91781e5-a1c2-4bb7-bfda-3dd5e0de98e6",
+                "AttrName": "Transcript",
+                "AttrValue": "caller - [It's yes, I'd like to Express my dissatisfaction with one of your products.]",
+                "CallPoint": 5000,
+                "CallPointEnd": 11000,
+                "Notes": "[NOTES]",
+                "SourceName": "VOCI_ingest"
+            },
+            {
+                "AttrId": "51d964de-8a53-4cc7-a2a6-5642a5e82b5d",
+                "AttrName": "IAWS_Label",
+                "AttrValue": "Issue Description",
+                "LabelTypeId": "75b46454-c167-4b0c-8020-667cc1e317f6",
+                "LabelCategory": "Segment",
+                "LabelCategoryId": "4324c77b-4bcb-43aa-8e67-310738daecb0",
+                "CallPoint": 5000,
+                "CallPointEnd": 56000,
+                "Notes": "[NOTES]",
+                "SourceName": "IAWS"
+            },
+            {
+                "AttrId": "938d0dd4-c805-4efc-8193-5819d130c6bd",
+                "AttrName": "IAWS_Label",
+                "AttrValue": "Identifying Customer need",
+                "LabelTypeId": "e431b054-c71d-415f-a58f-8a152ed1c692",
+                "LabelCategory": "Process",
+                "LabelCategoryId": "72a02a43-17e0-4e34-a1af-960aeeff3fd9",
+                "CallPoint": 5000,
+                "CallPointEnd": 11000,
+                "Notes": "[NOTES]",
+                "SourceName": "IAWS"
+            },
+            {
+                "AttrId": "ee5f4baf-c8f3-4636-be17-bb0805bdabec",
+                "AttrName": "IAWS_Label",
+                "AttrValue": "Express Dissatisfaction",
+                "LabelTypeId": "f4086f13-c644-48db-adb8-7a610a657ce3",
+                "LabelCategory": "Customer Sub Process",
+                "LabelCategoryId": "0a642fde-3544-4b24-99ba-a8ef813e1799",
+                "CallPoint": 5000,
+                "CallPointEnd": 11000,
+                "Notes": "[NOTES]",
+                "SourceName": "IAWS"
+            },
+            {
+                "AttrId": "9c63584d-eca0-41ca-bf1d-7cd97b2f1794",
+                "AttrName": "Transcript",
+                "AttrValue": "agent - [I'm sorry to hear that sir. Let's remedies that situation may have your name.]",
+                "CallPoint": 12000,
+                "CallPointEnd": 15000,
+                "Notes": "[NOTES]",
+                "SourceName": "VOCI_ingest"
+            },
+            {
+                "AttrId": "9db36f95-d1d1-42bc-a962-a128d8b39d52",
+                "AttrName": "IAWS_Label",
+                "AttrValue": "Verification",
+                "LabelTypeId": "e431b054-c71d-415f-a58f-8a152ed1c692",
+                "LabelCategory": "Process",
+                "LabelCategoryId": "3cbd81ca-00a7-4389-99b8-9f29c5e5659c",
+                "CallPoint": 12000,
+                "CallPointEnd": 40000,
+                "Notes": "[NOTES]",
+                "SourceName": "IAWS"
+            },
+            {
+                "AttrId": "613853bb-42f6-424d-92ef-582fba1a4593",
+                "AttrName": "IAWS_Label",
+                "AttrValue": "Verify Name",
+                "LabelTypeId": "e431b054-c71d-415f-a58f-8a152ed1c692",
+                "LabelCategory": "Agent Sub Process",
+                "LabelCategoryId": "0c329955-f673-40f8-8662-0e213e2aca18",
+                "CallPoint": 12000,
+                "CallPointEnd": 15000,
+                "Notes": "[NOTES]",
+                "SourceName": "IAWS"
+            },
+            {
+                "AttrId": "4476fe00-f8a7-43b6-87aa-ef41bd674a6b",
+                "AttrName": "Transcript",
+                "AttrValue": "caller - [I am Martin margin.]",
+                "CallPoint": 16000,
+                "CallPointEnd": 18000,
+                "Notes": "[NOTES]",
+                "SourceName": "VOCI_ingest"
+            },
+            {
+                "AttrName": "WatchMode Chrome",
+                "AttrValue": "CRM - Find Account",
+                "AttrId": "C57F0172-832C-4CE9-AB86-A0DB55E437AB",
+                "CallPoint": 16000,
+                "SourceName": "StepTransLabel"
+            },
+            {
+                "AttrId": "3cc5708c-7ed1-4505-9809-b5e39ac134ea",
+                "AttrName": "IAWS_Label",
+                "AttrValue": "Provide Name",
+                "LabelTypeId": "eaf4e281-db52-49e0-8014-468093d33321",
+                "LabelCategory": "Customer Sub Process",
+                "LabelCategoryId": "0a642fde-3544-4b24-99ba-a8ef813e1799",
+                "CallPoint": 16000,
+                "CallPointEnd": 18000,
+                "Notes": "[NOTES]",
+                "SourceName": "IAWS"
+            },
+            {
+                "AttrId": "afdd3908-c2c8-4277-92c6-87771698dcc3",
+                "AttrName": "Transcript",
+                "AttrValue": "agent - [Okay type that in alright, sir. Could you verify your address for me please?]",
+                "CallPoint": 19000,
+                "CallPointEnd": 27000,
+                "Notes": "[NOTES]",
+                "SourceName": "VOCI_ingest"
+            },
+            {
+                "AttrId": "4306ffbd-5d01-4108-8b64-7c19a3dd61ff",
+                "AttrName": "IAWS_Label",
+                "AttrValue": "Verify Address",
+                "LabelTypeId": "7dc3d4f9-621d-4461-897b-7d7742e61a39",
+                "LabelCategory": "Agent Sub Process",
+                "LabelCategoryId": "0c329955-f673-40f8-8662-0e213e2aca18",
+                "CallPoint": 19000,
+                "CallPointEnd": 27000,
+                "Notes": "[NOTES]",
+                "SourceName": "IAWS"
+            },
+            {
+                "AttrName": "WatchMode Chrome",
+                "AttrValue": "CRM - Enter Last Name",
+                "AttrId": "9286190E-E8C4-4FA5-947C-EDE0C68304EE",
+                "CallPoint": 20000,
+                "SourceName": "StepTransLabel"
+            },
+            {
+                "AttrName": "WatchMode Chrome",
+                "AttrValue": "CRM - Search Form",
+                "AttrId": "20828235-0466-49A8-93AB-076EE83E014A",
+                "CallPoint": 22000,
+                "SourceName": "StepTransLabel"
+            },
+            {
+                "AttrId": "e250a8c6-f505-4328-bd1e-767f7ae7bbd4",
+                "AttrName": "Transcript",
+                "AttrValue": "caller - [Smile 13.6 not anyway, so and you can smile on Mars.]",
+                "CallPoint": 28000,
+                "CallPointEnd": 33000,
+                "Notes": "[NOTES]",
+                "SourceName": "VOCI_ingest"
+            },
+            {
+                "AttrId": "90478d30-4799-4d86-93e9-112a314bc536",
+                "AttrName": "IAWS_Label",
+                "AttrValue": "Provide Address",
+                "LabelTypeId": "88a8fe30-6491-4626-a188-4ae65b2ed4ed",
+                "LabelCategory": "Customer Sub Process",
+                "LabelCategoryId": "0a642fde-3544-4b24-99ba-a8ef813e1799",
+                "CallPoint": 28000,
+                "CallPointEnd": 33000,
+                "Notes": "[NOTES]",
+                "SourceName": "IAWS"
+            },
+            {
+                "AttrId": "4120fec9-1950-4c76-b5df-546d396f0bd2",
+                "AttrName": "Transcript",
+                "AttrValue": "agent - [Okay, and also your email address.]",
+                "CallPoint": 33000,
+                "CallPointEnd": 35000,
+                "Notes": "[NOTES]",
+                "SourceName": "VOCI_ingest"
+            },
+            {
+                "AttrName": "WatchMode Chrome",
+                "AttrValue": "CRM - Address is verified",
+                "AttrId": "3D70478D-0723-4437-AF0C-BAB041A225AB",
+                "CallPoint": 33000,
+                "SourceName": "StepTransLabel"
+            },
+            {
+                "AttrId": "cfd0200d-d4af-4236-8e31-0d67d414e18a",
+                "AttrName": "IAWS_Label",
+                "AttrValue": "Verify Email address",
+                "LabelTypeId": "e431b054-c71d-415f-a58f-8a152ed1c692",
+                "LabelCategory": "Agent Sub Process",
+                "LabelCategoryId": "0c329955-f673-40f8-8662-0e213e2aca18",
+                "CallPoint": 33000,
+                "CallPointEnd": 35000,
+                "Notes": "[NOTES]",
+                "SourceName": "IAWS"
+            },
+            {
+                "AttrId": "7ac2381c-fd09-4944-8cdf-74529029f482",
+                "AttrName": "Transcript",
+                "AttrValue": "caller - [Marvin that martian at one or Burroughs dot. Com.]",
+                "CallPoint": 37000,
+                "CallPointEnd": 40000,
+                "Notes": "[NOTES]",
+                "SourceName": "VOCI_ingest"
+            },
+            {
+                "AttrId": "68201132-0d93-4357-a529-5a7f9d553357",
+                "AttrName": "IAWS_Label",
+                "AttrValue": "Provide Email address",
+                "LabelTypeId": "e431b054-c71d-415f-a58f-8a152ed1c692",
+                "LabelCategory": "Customer Sub Process",
+                "LabelCategoryId": "0a642fde-3544-4b24-99ba-a8ef813e1799",
+                "CallPoint": 37000,
+                "CallPointEnd": 40000,
+                "Notes": "[NOTES]",
+                "SourceName": "IAWS"
+            },
+            {
+                "AttrName": "WatchMode Chrome",
+                "AttrValue": "CRM - Email is verified",
+                "AttrId": "6418CD51-DD88-47CD-A786-593317462757",
+                "CallPoint": 41000,
+                "SourceName": "StepTransLabel"
+            },
+            {
+                "AttrName": "WatchMode Chrome",
+                "AttrValue": "CRM - Submit Verification Form",
+                "AttrId": "18225982-4937-4A21-8681-002F11DB5C84",
+                "CallPoint": 42000,
+                "SourceName": "StepTransLabel"
+            },
+            {
+                "AttrId": "65953d0c-4af5-4f41-97c1-ef28dd977615",
+                "AttrName": "Transcript",
+                "AttrValue": "agent - [I will thank you mister Marsh and thank you, thanks for calling today. How may I help you?]",
+                "CallPoint": 43000,
+                "CallPointEnd": 47000,
+                "Notes": "[NOTES]",
+                "SourceName": "VOCI_ingest"
+            },
+            {
+                "AttrId": "76a728e9-0cf7-495c-98e5-05cdcdef854d",
+                "AttrName": "IAWS_Label",
+                "AttrValue": "Identifying Customer need",
+                "LabelTypeId": "e431b054-c71d-415f-a58f-8a152ed1c692",
+                "LabelCategory": "Process",
+                "LabelCategoryId": "72a02a43-17e0-4e34-a1af-960aeeff3fd9",
+                "CallPoint": 43000,
+                "CallPointEnd": 56000,
+                "Notes": "[NOTES]",
+                "SourceName": "IAWS"
+            },
+            {
+                "AttrId": "0438249b-6912-43ac-ab51-fc2c49d0d2bb",
+                "AttrName": "IAWS_Label",
+                "AttrValue": "Probing",
+                "LabelTypeId": "8d92236b-1eef-41d6-8174-b834d57649c9",
+                "LabelCategory": "Agent Sub Process",
+                "LabelCategoryId": "0c329955-f673-40f8-8662-0e213e2aca18",
+                "CallPoint": 43000,
+                "CallPointEnd": 47000,
+                "Notes": "[NOTES]",
+                "SourceName": "IAWS"
+            },
+            {
+                "AttrId": "1ec07496-f5e7-4266-bc98-4669c59ac985",
+                "AttrName": "Transcript",
+                "AttrValue": "caller - [I purchased your model P ##### dash disintegrating to school and it doesn't function properly.]",
+                "CallPoint": 48000,
+                "CallPointEnd": 56000,
+                "Notes": "[NOTES]",
+                "SourceName": "VOCI_ingest"
+            },
+            {
+                "AttrId": "5d0f7136-a07b-460d-8782-a016d96db9b0",
+                "AttrName": "IAWS_Label",
+                "AttrValue": "Explain Further",
+                "LabelTypeId": "ed5f7935-ec63-4081-9239-620fa53703d6",
+                "LabelCategory": "Customer Sub Process",
+                "LabelCategoryId": "0a642fde-3544-4b24-99ba-a8ef813e1799",
+                "CallPoint": 48000,
+                "CallPointEnd": 56000,
+                "Notes": "[NOTES]",
+                "SourceName": "IAWS"
+            },
+            {
+                "AttrId": "c7e9f7ce-98e8-4f8d-a62c-73a3da3febdb",
+                "AttrName": "Transcript",
+                "AttrValue": "agent - [I'm sorry to hear that. Let me look at that order and see if we can solve this problem. Um, I'm having a little trouble finding it in the computer.]",
+                "CallPoint": 57000,
+                "CallPointEnd": 70000,
+                "Notes": "[NOTES]",
+                "SourceName": "VOCI_ingest"
+            },
+            {
+                "AttrId": "e3d6ae90-fc2a-4c80-a17b-f69880a6e89c",
+                "AttrName": "IAWS_Label",
+                "AttrValue": "Issue Resolution",
+                "LabelTypeId": "75b46454-c167-4b0c-8020-667cc1e317f6",
+                "LabelCategory": "Segment",
+                "LabelCategoryId": "3cf4d02c-893e-49c7-90ea-baf6308d3fc8",
+                "CallPoint": 57000,
+                "CallPointEnd": 147000,
+                "Notes": "[NOTES]",
+                "SourceName": "IAWS"
+            },
+            {
+                "AttrId": "58124100-b97e-4739-be5c-cf1cb4344b4b",
+                "AttrName": "IAWS_Label",
+                "AttrValue": "Giving Information",
+                "LabelTypeId": "e431b054-c71d-415f-a58f-8a152ed1c692",
+                "LabelCategory": "Process",
+                "LabelCategoryId": "e313ef56-44a0-497d-aa91-db9377758dbe",
+                "CallPoint": 57000,
+                "CallPointEnd": 96000,
+                "Notes": "[NOTES]",
+                "SourceName": "IAWS"
+            },
+            {
+                "AttrId": "6f80ace5-d707-432d-aa18-c403e6758489",
+                "AttrName": "IAWS_Label",
+                "AttrValue": "Solution Steps",
+                "LabelTypeId": "e431b054-c71d-415f-a58f-8a152ed1c692",
+                "LabelCategory": "Agent Sub Process",
+                "LabelCategoryId": "0c329955-f673-40f8-8662-0e213e2aca18",
+                "CallPoint": 57000,
+                "CallPointEnd": 70000,
+                "Notes": "[NOTES]",
+                "SourceName": "IAWS"
+            },
+            {
+                "AttrName": "WatchMode Chrome",
+                "AttrValue": "CRM - Add Note to Call History",
+                "AttrId": "AF0CDEFD-5F02-4B57-AC5C-362ADBEA275B",
+                "CallPoint": 65000,
+                "SourceName": "StepTransLabel"
+            },
+            {
+                "AttrName": "WatchMode Chrome",
+                "AttrValue": "CRM - Cancel",
+                "AttrId": "E55DC996-5AB3-4AFC-9B6D-744640C72D3E",
+                "CallPoint": 68000,
+                "SourceName": "StepTransLabel"
+            },
+            {
+                "AttrId": "05bf625e-5b8f-4f0c-9436-64ece0218119",
+                "AttrName": "Transcript",
+                "AttrValue": "caller - [What you're at these computers there? So now do you and so complex I could punch them.]",
+                "CallPoint": 72000,
+                "CallPointEnd": 76000,
+                "Notes": "[NOTES]",
+                "SourceName": "VOCI_ingest"
+            },
+            {
+                "AttrId": "44c25cfb-d833-4976-b4b1-3a5a6d7debbb",
+                "AttrName": "IAWS_Label",
+                "AttrValue": "Respond to agent question/request",
+                "LabelTypeId": "e431b054-c71d-415f-a58f-8a152ed1c692",
+                "LabelCategory": "Customer Sub Process",
+                "LabelCategoryId": "0a642fde-3544-4b24-99ba-a8ef813e1799",
+                "CallPoint": 72000,
+                "CallPointEnd": 76000,
+                "Notes": "[NOTES]",
+                "SourceName": "IAWS"
+            },
+            {
+                "AttrId": "24ece9b7-9d15-4aad-8ac3-ba1b9f875cc4",
+                "AttrName": "Transcript",
+                "AttrValue": "agent - [Oh wait, I found it. Okay.]",
+                "CallPoint": 76000,
+                "CallPointEnd": 80000,
+                "Notes": "[NOTES]",
+                "SourceName": "VOCI_ingest"
+            },
+            {
+                "AttrId": "bbce82fe-69a6-4a30-b31e-99bf5ee93f80",
+                "AttrName": "IAWS_Label",
+                "AttrValue": "Solution Steps",
+                "LabelTypeId": "e431b054-c71d-415f-a58f-8a152ed1c692",
+                "LabelCategory": "Agent Sub Process",
+                "LabelCategoryId": "0c329955-f673-40f8-8662-0e213e2aca18",
+                "CallPoint": 76000,
+                "CallPointEnd": 80000,
+                "Notes": "[NOTES]",
+                "SourceName": "IAWS"
+            },
+            {
+                "AttrName": "WatchMode Chrome",
+                "AttrValue": "CRM - View Order",
+                "AttrId": "64777C56-D266-4C14-B321-6C88A1DF0948",
+                "CallPoint": 78000,
+                "SourceName": "StepTransLabel"
+            },
+            {
+                "AttrId": "4755e9f4-c1de-4688-8fe6-3511b04c04b1",
+                "AttrName": "Transcript",
+                "AttrValue": "caller - [I didn't have to like.]",
+                "CallPoint": 82000,
+                "CallPointEnd": 83000,
+                "Notes": "[NOTES]",
+                "SourceName": "VOCI_ingest"
+            },
+            {
+                "AttrId": "e7c2eaf2-1e97-4097-8c0f-71771a8e521e",
+                "AttrName": "IAWS_Label",
+                "AttrValue": "Respond to agent question/request",
+                "LabelTypeId": "e431b054-c71d-415f-a58f-8a152ed1c692",
+                "LabelCategory": "Customer Sub Process",
+                "LabelCategoryId": "0a642fde-3544-4b24-99ba-a8ef813e1799",
+                "CallPoint": 82000,
+                "CallPointEnd": 83000,
+                "Notes": "[NOTES]",
+                "SourceName": "IAWS"
+            },
+            {
+                "AttrId": "2ac2cde6-07ea-41f6-a014-c49e514f7d14",
+                "AttrName": "Transcript",
+                "AttrValue": "agent - [Yes, I think I see the problem too we ship to a P #####. X any grading pistol not of people ##### X to send a Grady pistol.]",
+                "CallPoint": 83000,
+                "CallPointEnd": 96000,
+                "Notes": "[NOTES]",
+                "SourceName": "VOCI_ingest"
+            },
+            {
+                "AttrId": "a6ab9e3b-d22b-4c25-b610-ac743ed4574d",
+                "AttrName": "IAWS_Label",
+                "AttrValue": "Solution Overview",
+                "LabelTypeId": "8d92236b-1eef-41d6-8174-b834d57649c9",
+                "LabelCategory": "Agent Sub Process",
+                "LabelCategoryId": "0c329955-f673-40f8-8662-0e213e2aca18",
+                "CallPoint": 83000,
+                "CallPointEnd": 96000,
+                "Notes": "[NOTES]",
+                "SourceName": "IAWS"
+            },
+            {
+                "AttrId": "4207a9c5-da8c-4f8c-bc14-dafd9b4deb0f",
+                "AttrName": "Transcript",
+                "AttrValue": "caller - [You have maybe I don't agree very angry and the race yourself your immediate this integration.]",
+                "CallPoint": 97000,
+                "CallPointEnd": 103000,
+                "Notes": "[NOTES]",
+                "SourceName": "VOCI_ingest"
+            },
+            {
+                "AttrId": "87a1c014-a419-44b4-a1e2-df2df80307e9",
+                "AttrName": "IAWS_Label",
+                "AttrValue": "General comment/response",
+                "LabelTypeId": "e431b054-c71d-415f-a58f-8a152ed1c692",
+                "LabelCategory": "Process",
+                "LabelCategoryId": "9d95a225-781d-40e1-8bbb-06d2259d48a1",
+                "CallPoint": 97000,
+                "CallPointEnd": 103000,
+                "Notes": "[NOTES]",
+                "SourceName": "IAWS"
+            },
+            {
+                "AttrId": "c8fc066d-bf7d-405f-995d-870a8dc01dab",
+                "AttrName": "IAWS_Label",
+                "AttrValue": "Express Dissatisfaction",
+                "LabelTypeId": "f4086f13-c644-48db-adb8-7a610a657ce3",
+                "LabelCategory": "Customer Sub Process",
+                "LabelCategoryId": "0a642fde-3544-4b24-99ba-a8ef813e1799",
+                "CallPoint": 97000,
+                "CallPointEnd": 103000,
+                "Notes": "[NOTES]",
+                "SourceName": "IAWS"
+            },
+            {
+                "AttrId": "4c191461-f443-46e4-81aa-f84ff73caa90",
+                "AttrName": "Transcript",
+                "AttrValue": "agent - [Sorry, I think we can fix this I I can ship you the correct pistol and it'll be on the next rocket to Mars.]",
+                "CallPoint": 103000,
+                "CallPointEnd": 109000,
+                "Notes": "[NOTES]",
+                "SourceName": "VOCI_ingest"
+            },
+            {
+                "AttrId": "2e374ceb-4e24-4462-8582-a4f6d5288613",
+                "AttrName": "IAWS_Label",
+                "AttrValue": "Recommended Solution",
+                "LabelTypeId": "e431b054-c71d-415f-a58f-8a152ed1c692",
+                "LabelCategory": "Process",
+                "LabelCategoryId": "903ac1d3-0490-46ce-838e-a425c972815e",
+                "CallPoint": 103000,
+                "CallPointEnd": 109000,
+                "Notes": "[NOTES]",
+                "SourceName": "IAWS"
+            },
+            {
+                "AttrId": "2e0399fc-b066-447e-911d-e95edb75b2f2",
+                "AttrName": "IAWS_Label",
+                "AttrValue": "Offer Solution: Order Modification",
+                "LabelTypeId": "51570ebe-9646-47ca-8238-63ede05695f7",
+                "LabelCategory": "Agent Sub Process",
+                "LabelCategoryId": "0c329955-f673-40f8-8662-0e213e2aca18",
+                "CallPoint": 103000,
+                "CallPointEnd": 109000,
+                "Notes": "[NOTES]",
+                "SourceName": "IAWS"
+            },
+            {
+                "AttrId": "0fe8142b-8796-42c9-98b5-1fa0b83e7fd4",
+                "AttrName": "Transcript",
+                "AttrValue": "caller - [I'm afraid that won't be fast enough and you see hers will be gone in just a few seconds.]",
+                "CallPoint": 110000,
+                "CallPointEnd": 116000,
+                "Notes": "[NOTES]",
+                "SourceName": "VOCI_ingest"
+            },
+            {
+                "AttrId": "bec63c20-c84b-45f3-965f-e9eabfbe0fea",
+                "AttrName": "IAWS_Label",
+                "AttrValue": "General comment/response",
+                "LabelTypeId": "e431b054-c71d-415f-a58f-8a152ed1c692",
+                "LabelCategory": "Process",
+                "LabelCategoryId": "9d95a225-781d-40e1-8bbb-06d2259d48a1",
+                "CallPoint": 110000,
+                "CallPointEnd": 116000,
+                "Notes": "[NOTES]",
+                "SourceName": "IAWS"
+            },
+            {
+                "AttrId": "92caf184-0d7d-4aee-b19f-e84e840a3506",
+                "AttrName": "IAWS_Label",
+                "AttrValue": "Express Dissatisfaction",
+                "LabelTypeId": "f4086f13-c644-48db-adb8-7a610a657ce3",
+                "LabelCategory": "Customer Sub Process",
+                "LabelCategoryId": "0a642fde-3544-4b24-99ba-a8ef813e1799",
+                "CallPoint": 110000,
+                "CallPointEnd": 116000,
+                "Notes": "[NOTES]",
+                "SourceName": "IAWS"
+            },
+            {
+                "AttrId": "8166d80b-be81-4c02-b90b-84e0f93b316f",
+                "AttrName": "Transcript",
+                "AttrValue": "agent - [What do you mean?]",
+                "CallPoint": 116000,
+                "CallPointEnd": 116000,
+                "Notes": "[NOTES]",
+                "SourceName": "VOCI_ingest"
+            },
+            {
+                "AttrId": "ae5fcf05-4e70-4325-b34e-e585ab997140",
+                "AttrName": "Transcript",
+                "AttrValue": "caller - [Oh, oh, I'm gonna blow it up it upsets my name is.]",
+                "CallPoint": 118000,
+                "CallPointEnd": 121000,
+                "Notes": "[NOTES]",
+                "SourceName": "VOCI_ingest"
+            },
+            {
+                "AttrName": "WatchMode Chrome",
+                "AttrValue": "CRM - Close Order",
+                "AttrId": "893D5259-3398-4863-AE99-5F3674FBE3D7",
+                "CallPoint": 118000,
+                "SourceName": "StepTransLabel"
+            },
+            {
+                "AttrId": "c7f96028-fa86-4d70-bcdc-f557188562f3",
+                "AttrName": "IAWS_Label",
+                "AttrValue": "Giving Information",
+                "LabelTypeId": "e431b054-c71d-415f-a58f-8a152ed1c692",
+                "LabelCategory": "Process",
+                "LabelCategoryId": "e313ef56-44a0-497d-aa91-db9377758dbe",
+                "CallPoint": 118000,
+                "CallPointEnd": 121000,
+                "Notes": "[NOTES]",
+                "SourceName": "IAWS"
+            },
+            {
+                "AttrId": "829baf00-d37d-40e0-8be2-a2142c9eb5cd",
+                "AttrName": "IAWS_Label",
+                "AttrValue": "Respond to agent question/request",
+                "LabelTypeId": "e431b054-c71d-415f-a58f-8a152ed1c692",
+                "LabelCategory": "Customer Sub Process",
+                "LabelCategoryId": "0a642fde-3544-4b24-99ba-a8ef813e1799",
+                "CallPoint": 118000,
+                "CallPointEnd": 121000,
+                "Notes": "[NOTES]",
+                "SourceName": "IAWS"
+            },
+            {
+                "AttrId": "45fe32bc-6a38-451d-82ac-61dab0a4ec80",
+                "AttrName": "Transcript",
+                "AttrValue": "agent - [Us or how how about if I offer you something you know for the inconvenience and I'll and I'll should be the pistol. In addition to that for no charge no extra charge.]",
+                "CallPoint": 122000,
+                "CallPointEnd": 132000,
+                "Notes": "[NOTES]",
+                "SourceName": "VOCI_ingest"
+            },
+            {
+                "AttrId": "5b160a89-d744-4d18-be97-426405339e7a",
+                "AttrName": "IAWS_Label",
+                "AttrValue": "Recommended Solution",
+                "LabelTypeId": "e431b054-c71d-415f-a58f-8a152ed1c692",
+                "LabelCategory": "Process",
+                "LabelCategoryId": "903ac1d3-0490-46ce-838e-a425c972815e",
+                "CallPoint": 122000,
+                "CallPointEnd": 142000,
+                "Notes": "[NOTES]",
+                "SourceName": "IAWS"
+            },
+            {
+                "AttrId": "1f1ccfef-6da0-4472-b923-135cfbd98e45",
+                "AttrName": "IAWS_Label",
+                "AttrValue": "Solution Steps",
+                "LabelTypeId": "e431b054-c71d-415f-a58f-8a152ed1c692",
+                "LabelCategory": "Agent Sub Process",
+                "LabelCategoryId": "0c329955-f673-40f8-8662-0e213e2aca18",
+                "CallPoint": 122000,
+                "CallPointEnd": 132000,
+                "Notes": "[NOTES]",
+                "SourceName": "IAWS"
+            },
+            {
+                "AttrId": "0a7bcae0-1a6b-4d23-b32c-05239c9da5b7",
+                "AttrName": "Transcript",
+                "AttrValue": "caller - [Is Messa Leslie?]",
+                "CallPoint": 133000,
+                "CallPointEnd": 134000,
+                "Notes": "[NOTES]",
+                "SourceName": "VOCI_ingest"
+            },
+            {
+                "AttrId": "75bf90e8-bd89-4b9d-afdc-1cbd4206ed49",
+                "AttrName": "IAWS_Label",
+                "AttrValue": "Grateful response",
+                "LabelTypeId": "e431b054-c71d-415f-a58f-8a152ed1c692",
+                "LabelCategory": "Customer Sub Process",
+                "LabelCategoryId": "0a642fde-3544-4b24-99ba-a8ef813e1799",
+                "CallPoint": 133000,
+                "CallPointEnd": 134000,
+                "Notes": "[NOTES]",
+                "SourceName": "IAWS"
+            },
+            {
+                "AttrId": "8a864636-9c42-418d-9bca-be256e5fd2aa",
+                "AttrName": "Transcript",
+                "AttrValue": "agent - [I I know just the thing this is popular with all the extra terrestrial, how about a bottle of instant girl pills.]",
+                "CallPoint": 135000,
+                "CallPointEnd": 142000,
+                "Notes": "[NOTES]",
+                "SourceName": "VOCI_ingest"
+            },
+            {
+                "AttrId": "e5aa7193-304a-419d-a3ad-bcae932b39d1",
+                "AttrName": "IAWS_Label",
+                "AttrValue": "Solution Steps",
+                "LabelTypeId": "e431b054-c71d-415f-a58f-8a152ed1c692",
+                "LabelCategory": "Agent Sub Process",
+                "LabelCategoryId": "0c329955-f673-40f8-8662-0e213e2aca18",
+                "CallPoint": 135000,
+                "CallPointEnd": 142000,
+                "Notes": "[NOTES]",
+                "SourceName": "IAWS"
+            },
+            {
+                "AttrName": "WatchMode Chrome",
+                "AttrValue": "CRM - Add New Order",
+                "AttrId": "AA8A6281-804E-400A-AE67-597BA00DD1A2",
+                "CallPoint": 136000,
+                "SourceName": "StepTransLabel"
+            },
+            {
+                "AttrId": "5308855d-0645-4fbf-a7f9-8185eb685f93",
+                "AttrName": "Transcript",
+                "AttrValue": "caller - [At at long last my dream come true.]",
+                "CallPoint": 143000,
+                "CallPointEnd": 145000,
+                "Notes": "[NOTES]",
+                "SourceName": "VOCI_ingest"
+            },
+            {
+                "AttrId": "6c51785d-a28f-4c71-8ce8-5cdafaec736c",
+                "AttrName": "IAWS_Label",
+                "AttrValue": "Grateful response",
+                "LabelTypeId": "e431b054-c71d-415f-a58f-8a152ed1c692",
+                "LabelCategory": "Customer Sub Process",
+                "LabelCategoryId": "0a642fde-3544-4b24-99ba-a8ef813e1799",
+                "CallPoint": 143000,
+                "CallPointEnd": 145000,
+                "Notes": "[NOTES]",
+                "SourceName": "IAWS"
+            },
+            {
+                "AttrName": "WatchMode Chrome",
+                "AttrValue": "CRM - Save",
+                "AttrId": "C06429C8-A917-4AF5-AE37-D2536B0F655F",
+                "CallPoint": 146000,
+                "SourceName": "StepTransLabel"
+            },
+            {
+                "AttrId": "5cee9d82-a0b6-4872-99ee-bfe264b5c661",
+                "AttrName": "Transcript",
+                "AttrValue": "agent - [All right.]",
+                "CallPoint": 147000,
+                "CallPointEnd": 147000,
+                "Notes": "[NOTES]",
+                "SourceName": "VOCI_ingest"
+            },
+            {
+                "AttrName": "WatchMode Chrome",
+                "AttrValue": "CRM - Add Note to Call History",
+                "AttrId": "B6D17AF4-248E-467B-AE71-D011AD7C820A",
+                "CallPoint": 151000,
+                "SourceName": "StepTransLabel"
+            },
+            {
+                "AttrName": "WatchMode Chrome",
+                "AttrValue": "CRM - Find Account",
+                "AttrId": "00C384AD-5A7D-4675-94E1-ED0FCB73F67F",
+                "CallPoint": 152000,
+                "SourceName": "StepTransLabel"
+            },
+            {
+                "AttrName": "WatchMode Chrome",
+                "AttrValue": "CRM - Enter Note Text",
+                "AttrId": "65D6B7B2-B2AF-4137-8BF6-C918BBB64463",
+                "CallPoint": 153000,
+                "SourceName": "StepTransLabel"
+            },
+            {
+                "AttrName": "WatchMode Chrome",
+                "AttrValue": "CRM - Save",
+                "AttrId": "B998BAC8-DE04-4BBF-B843-FF49E6916F57",
+                "CallPoint": 153000,
+                "SourceName": "StepTransLabel"
+            }
+        ]
