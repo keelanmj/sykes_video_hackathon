@@ -1,0 +1,109 @@
+<html> 
+
+<head>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"> 
+</script>
+
+
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
+
+ <script>
+        //first add an event listener for page load
+        document.addEventListener( "DOMContentLoaded", get_json_data, false ); // get_json_data is the function name that will fire on page load
+
+        //this function is in the event listener and will execute on page load
+        function get_json_data(){
+            // Relative URL of external json file
+            var json_url = 'sample.json';
+
+            //Build the XMLHttpRequest (aka AJAX Request)
+            xmlhttp = new XMLHttpRequest();
+            xmlhttp.onreadystatechange = function() { 
+                if (this.readyState == 4 && this.status == 200) {//when a good response is given do this
+
+                    var data = JSON.parse(this.responseText); // convert the response to a json object
+                    append_json(data);// pass the json object to the append_json function
+                }
+            }
+            //set the request destination and type
+            xmlhttp.open("POST", json_url, true);
+            //set required headers for the request
+            xmlhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+            // send the request
+            xmlhttp.send(); // when the request completes it will execute the code in onreadystatechange section
+        }
+
+        //this function appends the json data to the table 'gable'
+        function append_json(data){
+            var table = document.getElementById('gable');
+            data.forEach(function(object) {
+                var tr = document.createElement('tr');
+                tr.innerHTML = '<td>' + object.AttrId + '</td>' +
+                '<td>' + object.CallPoint + '</td>' +
+                '<td>' + object.AttrValue + '</td>' ;
+                table.appendChild(tr);
+            });
+        }
+    </script>
+    
+</head>
+
+<body> 
+
+	<video id="myVideo" width="320" height="240" controls>
+	  <source src="https://usmazdevapp030.dev.sykes.com/CTWorkload/demo/mov6.mp4" type="video/mp4">
+	Your browser does not support the video tag.
+	</video>
+
+	<button onclick="getCurTime()" type="button">Get current time position</button>
+	<button onclick="setCurTime()" type="button">Set time position to 5 seconds</button><br> 
+
+	<script>
+	var vid = document.getElementById("myVideo");
+	function getCurTime() { 
+	  alert((vid.currentTime * 1000).toFixed(0));
+	} 
+	function setCurTime() { 
+	  vid.currentTime=5;
+	} 
+	</script>
+	
+	<div class="wrapper">
+<div class="profile">
+
+  
+<div class="wrapper overflow">>
+        <table width="400" id="gable">
+            <colgroup>
+                <col class="twenty" />
+                <col class="fourty" />
+                <col class="thirtyfive" />
+                <col class="twentyfive" />
+            </colgroup>
+            <tr>
+                <th onclick="sortTable(0)"><span class="glyphicon glyphicon-sort"></span>COUNTRY</th>
+                <th onclick="sortTable(1)"><span class="glyphicon glyphicon-sort"></span>LOCATION</th>
+                <th onclick="sortTable(2)"><span class="glyphicon glyphicon-sort"></span>BALANCE</th>
+            </tr>
+        </table>
+    </div>
+   
+
+</body> 
+</html>
