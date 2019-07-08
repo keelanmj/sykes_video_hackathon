@@ -1,7 +1,19 @@
-<html> 
 
+
+<html>
 <head>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"> 
+
+const tr10 = ($("#process-manager-table tr:eq(10)"))[0];
+const tr10OffsetTop = tr10.clientHeight + tr10.offsetTop;
+
+$('.wrapper').css('max-height', tr10ffsetTop);
+
+.wrapper.overflow {
+  overflow-y: scroll;
+  display: inline-block;
+}
+
 </script>
 
 
@@ -61,19 +73,11 @@ tr:nth-child(even) {
             });
         }
     </script>
-	
+    
 </head>
 
-<body> 
+<body>
 
-	<video id="myVideo" width="320" height="240" controls>
-	  <source src="https://usmazdevapp030.dev.sykes.com/CTWorkload/demo/mov6.mp4" type="video/mp4">
-	Your browser does not support the video tag.
-	</video>
-
-	<button onclick="getCurTime()" type="button">Get current time position</button>
-	<button onclick="setCurTime()" type="button">Set time position to 5 seconds</button><br> 
- 
 <div class="wrapper">
 <div class="profile">
 
@@ -94,6 +98,3 @@ tr:nth-child(even) {
         </table>
     </div>
    
-
-</body> 
-</html>
